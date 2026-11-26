@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "retrieval-bench"
+version = "0.2.0"
+description = "Reproducible evaluation harness for dense retrieval"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Leila Farahani"}]
+dependencies = []
+
+[project.scripts]
+retrieval-bench = "run:main"
+
+[tool.setuptools]
+py-modules = ["run", "data", "metrics", "rankers"]

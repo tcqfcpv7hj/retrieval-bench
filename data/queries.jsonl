@@ -1,0 +1,4 @@
+{"id": "q1", "text": "lexical baseline for passage ranking"}
+{"id": "q2", "text": "dense retriever training with hard negatives"}
+{"id": "q3", "text": "what should an evaluation harness record"}
+{"id": "q4", "text": "unjudged query about tokenizers"}

@@ -1,0 +1,6 @@
+{"id": "d1", "text": "Sparse and dense retrieval baselines need identical evaluation splits to be comparable."}
+{"id": "d2", "text": "BM25 remains a strong lexical baseline for passage ranking on many collections."}
+{"id": "d3", "text": "Dense retrieval encodes queries and passages with a dual encoder and scores them by dot product."}
+{"id": "d4", "text": "Evaluation harnesses should record seeds, data digests, and ranker configuration."}
+{"id": "d5", "text": "Hard negatives mined from BM25 improve dense retriever training in low-data regimes."}
+{"id": "d6", "text": "A retrieval run file stores ranked document ids per query for metric computation."}
